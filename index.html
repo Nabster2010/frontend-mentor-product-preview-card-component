@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Product preview card component</title>
+    <script src="/js/script.js" defer></script>
+  </head>
+  <body class="flex justify-center items-center font-Fraunces">
+    <section
+      class="max-w-sm w-full bg-Cream px-4 py-6 shadow-sm md:max-w-full md:flex md:justify-center md:items-center"
+    >
+      <img
+        src="./assets/images/image-product-mobile.jpg"
+        class="object-cover w-full h-auto rounded-t-lg md:hidden"
+        alt=""
+        srcset=""
+      />
+      <div class="w-80 hidden md:block self-stretch h-auto">
+        <img
+          src="./assets/images/image-product-desktop.jpg"
+          class="object-cover w-full h-[450px] rounded-l-lg"
+          alt=""
+        />
+      </div>
+      <div
+        class="bg-White py-6 px-6 rounded-b-lg md:rounded-b-none md:rounded-tr-lg md:rounded-br-lg h-full md:h-auto md:self-stretch md:w-80"
+      >
+        <div class="max-w-[280px] m-auto">
+          <h3
+            class="uppercase text-Dark-grayish-blue font-Montserrat text-[11px] tracking-[0.2em] md:mt-4"
+          >
+            Perfume
+          </h3>
+          <h1 class="text-3xl font-bold mt-3 md:max-w-[14rem] md:mt-4">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p
+            class="mt-3 text-[14px] font-medium text-Dark-grayish-blue md:max-w-[14rem] md:mt-4"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="flex space-x-8 items-center mt-3 md:mt-5">
+            <h1 class="text-3xl font-bold font-Fraunces text-Dark-cyan">
+              $149.99
+            </h1>
+            <span class="line-through text-xs text-Dark-grayish-blue"
+              >$169.99</span
+            >
+          </div>
+          <button
+            class="w-full flex justify-center items-center space-x-2 bg-Dark-cyan py-3 mt-3 px-4 rounded-lg text-White font-medium hover:bg-very-dark-cyan transition md:mt-6"
+          >
+            <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                fill="#FFF"
+              />
+            </svg>
+            <span class="font-Montserrat text-sm"> Add To Cart</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

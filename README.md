@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Nabster2010/frontend-mentor-product-preview-card-component)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://nabster2010.github.io/frontend-mentor-product-preview-card-component/)
 
 ## My process
 
